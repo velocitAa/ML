@@ -9,7 +9,7 @@ Source code
 1. main.py contains API logic (FastApi + model)
 2. data_for_cosine_similarity.csv file where first column is possible types of product for which you can get recommendation 
 3. Dockerfile describes a Docker image that is used to run the API
-> P.S. if name of beer contain empty space " " change it to "_" example: Amstel Light -> Amstel_Light. Also GET method works only with string example input: "Budweiser Amstel_Light Bud_Light"
+> P.S. if name of beer contains empty space " " change it to "_" example: Amstel Light -> Amstel_Light. Also GET method works only with string example input: "Budweiser Amstel_Light Bud_Light"
 4. Jupyter notebook Rec_system.ipynb contains three models (SVD, ItemKNN and RSLM (Pytorch))
 ---
 Full project you can download from here: https://drive.google.com/file/d/1lEuAAuQSZ_LqFV698rr26_Tx1KhiL68P/view?usp=sharing
